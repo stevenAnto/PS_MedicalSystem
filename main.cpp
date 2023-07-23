@@ -95,7 +95,7 @@ void Actualizar(){
 	Leer();
 }
 void Borrar(){
-	const char *nombre_archivo_temp = "archivo_temp.csv";
+	const char *nombre_archivo_temp = "archivo_temp.dat";
 	FILE* archivo_temp = fopen(nombre_archivo_temp,"w+b");
 	FILE* archivo = fopen(nombre_archivo,"rb");
 	Paciente paciente;
